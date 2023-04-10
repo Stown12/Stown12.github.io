@@ -1,0 +1,40 @@
+/* declaracion de la caligrafia en todo el archivo html*/
+html {
+  font-size: 10px;
+  font-family:'Oswald', sans-serif;
+  background-color: darkorchid;
+}
+/*ajuste de tamaño y espacio del texto y la lista*/
+p,
+li {
+font-size: 18px;
+line-height: 3;
+letter-spacing: 1px;
+}
+/*ajuste del contenido visual, posicion, margen, color-fondo, espaciado alrededor del contenido, borde*/
+body {
+  width: 600px;
+  margin: 0 auto;
+  background-color: #ff9500;
+  padding: 0 20px 20px 20px;
+  border: 5px solid black;
+}
+/*posicionamineto y estilo al titulo*/
+h1 {
+  font-size: 60px;
+  text-align: center;
+  margin: 0;
+  padding: 20px 0;
+  color: #00539f;
+  text-shadow: 3px 3px 1px black;
+}
+/*Posicionamiento a la imagen */
+img {
+  width: 400px;
+  display: block;
+  margin: 0 auto;
+}
+
+
+
+ 
